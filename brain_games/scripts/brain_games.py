@@ -1,4 +1,6 @@
-from brain_games import cli
+import sys
+from cli import welcome_user
+sys.path.append("/home/alexdem122/python-project-49/brain_games")
 
 
 def greet():
@@ -8,7 +10,7 @@ def greet():
 
 def main():
     greet()
-    print(cli.welcome_user())
+    print(welcome_user())
 
 
 if __name__ == "__main__":
