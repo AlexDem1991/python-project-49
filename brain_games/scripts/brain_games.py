@@ -1,7 +1,7 @@
 import sys
-from cli import welcome_user
 sys.path.append("/home/alexdem122/python-project-49/brain_games")
-
+sys.path.append("/home/vboxuser/python-project-49/brain_games")
+from cli import welcome_user
 
 def greet():
     """greeting user"""
