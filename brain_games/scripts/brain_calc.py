@@ -5,7 +5,6 @@ from cli import greeting, ending_game
 import random
 
 
-
 def game():
     print("What is the result of the expression?")
     for i in range(3):
