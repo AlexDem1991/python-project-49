@@ -1,12 +1,15 @@
-from brain_even import greeting, ending_game
+import sys
+sys.path.append("/home/alexdem122/python-project-49/brain_games")
+sys.path.append("/home/vboxuser/python-project-49/brain_games")
+from cli import greeting, ending_game
 import random
-import prompt
+
 
 
 def game():
     print("What is the result of the expression?")
     for i in range(3):
-        symbol = random.choice(['*','-','+'])
+        symbol = random.choice(['*', '-', '+'])
         num_1 = str(random.randint(1, 100))
         num_2 = str(random.randint(1, 100))
         print(f"Question: {num_1} {symbol} {num_2}")
