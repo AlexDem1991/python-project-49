@@ -1,11 +1,6 @@
 import prompt
 
 
-def welcome_user():
-    name = prompt.string("May i have your name? ")
-    return f"Hello, {name}"
-
-
 def greeting():
     """greeting user"""
     print("Welcome to the Brain Games!")
@@ -23,7 +18,13 @@ def ending_game(name, answer, answer_game, user_answer):
         print(f"Let't try again, {name}.")
 
 
+def welcome_user():
+    name = prompt.string("May i have your name? ")
+    return f"Hello, {name}"
+
 def main():
+    greeting()
+    ending_game()
     welcome_user()
 
 
