@@ -7,7 +7,7 @@ def greet():
 
 
 def main():
-    greet()
+    #greet()
     print(cli.welcome_user())
 
 if __name__ == "__main__":
