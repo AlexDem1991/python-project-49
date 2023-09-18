@@ -1,15 +1,14 @@
 from games import cli
 
 
-def greet():
-    """greeting user"""
-    print("Welcome to the Brain Games!")
-
+#def greet():
+#    """greeting user"""
+   
 
 def main():
-    #greet()
+    print("Welcome to the Brain Games!")
     print(cli.welcome_user())
+
 
 if __name__ == "__main__":
     main()
-    
