@@ -1,6 +1,7 @@
 import random
 from games import cli
 
+
 def game():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     divisors = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31]
@@ -24,6 +25,7 @@ def game():
             return False, answer_game, answer_user
     else:
         return True, answer_game, answer_user
+
 
 def main():
     name = cli.greeting()

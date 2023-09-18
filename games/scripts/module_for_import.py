@@ -22,6 +22,7 @@ def welcome_user():
     name = prompt.string("May i have your name? ")
     return f"Hello, {name}"
 
+
 def main():
     greeting()
     ending_game()
